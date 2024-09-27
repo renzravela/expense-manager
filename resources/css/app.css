@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.button{
+    padding: 10px;
+    background-color: #5a5aff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: #3c3cef;
+    transition: all;
+    transition-duration: 1000;
+}
